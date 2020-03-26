@@ -1,3 +1,6 @@
+ol li{
+    color: rgb(30, 154, 192);
+}
 h1{
     color: red;
 }
@@ -7,5 +10,5 @@ h1{
 }
 
 .texto{
-    color: chartreuse;
+    color:brown;
 }
