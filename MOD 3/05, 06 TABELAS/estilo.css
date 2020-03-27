@@ -1,0 +1,35 @@
+body{
+    margin: 50px;
+    font-size: 17px;
+}
+
+table{
+    width: 600px;
+    /* aqui coloca borda só na tabela */
+    /* border: 1px solid; */
+}
+
+table thead{
+    background-color: gray;
+  
+}
+table tbody{
+ 
+}
+
+th, td{
+    padding: 10px;
+}
+
+/* tbody td{
+    border-bottom: 1px solid lightgray;;
+} */
+
+tbody tr:nth-child(even){
+    background-color: #EEE;
+
+}
+/* tem que colocar isso depois de tudo pro anterior não sobrescrever */
+tbody tr:hover{
+    background-color: lightgray;;
+}

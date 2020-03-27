@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <link href="estilo.css" rel="stylesheet" />
+    <title>Título da página</title>
+</head>
+
+<body>
+    <h1>Página de teste</h1>
+    <h2>Área de cadastro</h2>
+    <form action="paginas/login.html" method="GET">
+        <!-- radio precisa ter o mesmo nome para poder checar e deschecar o grupo -->
+        <input type="text" name="usuario" id="" placeholder="aqui">
+        <p>Sexo</p>
+        <input type="radio" name="sexo" id=""><br>
+        <input type="radio" name="sexo" id=""><br>
+        <input type="submit" value="Enviar">
+        <br>
+        <input type="color" name="cores" id=""><br>
+        <input type="date" name="" id=""><br>
+        <input type="datetime-local" name="" id=""><br>
+        <input type="month" name="" id=""><br>
+
+    </form>
+    <h2>Select</h2>
+    <form action="paginas/login.html" method="GET">
+        <select name="ordenacao" id="">
+            <option value="1">Mais vendidos</option>
+            <!-- selected deixa marcado a opção padrao -->
+            <option value="2" selected>Recentes</option>
+            <input type="submit" value="Enviar">
+        </select>
+    </form>
+    <h2>Select de multipla escolha com control</h2>
+    <form action="paginas/login.html" method="GET">
+        <select name="order" id="" size="2" multiple>
+            <option value="1">Mais vendidos</option>
+            <option value="2">Recentes</option>
+            <input type="submit" value="Enviar">
+        </select>
+    </form>
+    <h2>Text area</h2>
+    <form action="paginas/login.html" method="GET">
+        <!-- não usar o html pra definir as colunas e as linhas, fazer pelo css  -->
+        <textarea name="descicao" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Buton</h2>
+    <form action="paginas/login.html" method="GET">
+        <!-- dentro do formulário funciona do mesmo jeito que o input submit 
+        em java script vai servir pra outras coisas -->
+        <button >Enviar</button>
+        
+    </form>
+
+    <h2>Label</h2>
+    <form action="paginas/login.html" method="GET">
+        <!-- for foca no id que vc definir  -->
+        <label for="nome">Nome completo:</label><br>
+        <input type="text" name="nome" id="nome">
+        <br><br>
+        <input type="checkbox" name="check" id="check">
+        <label for="check">Eu declaro que concordo com os termos de uso</label>
+        <br>
+        <!-- outra forma de usar o label -->
+        <label for="aceito">
+            <input type="checkbox" name="" id="aceito"> Declaro que li tudo.
+        </label>
+    </form>
+
+
+</body>
